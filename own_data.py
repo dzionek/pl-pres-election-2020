@@ -1,3 +1,7 @@
+"""
+Module with constants used in the analysis.
+"""
+
 from plotly.express import colors
 
 candidates = [
@@ -12,7 +16,7 @@ candidates = [
 	'Rafał Kazimierz TRZASKOWSKI',
 	'Waldemar Włodzimierz WITKOWSKI',
 	'Stanisław Józef ŻÓŁTEK'
- ]
+]
 
 candidates_colors = {
     'Robert BIEDROŃ' : colors.sequential.Reds,
@@ -35,4 +39,18 @@ poland_center = {
 
 poland_zoom = 5.2
 
-map_margin = {"r":0,"t":0,"l":0,"b":0}
+opacity = 0.8
+
+map_margin = {
+	"r":0, "t":0, "l":0, "b":0
+}
+
+parties_2019 = [
+	'KOALICYJNY KOMITET WYBORCZY KOALICJA OBYWATELSKA PO .N IPL ZIELONI - ZPOW-601-6/19',
+	'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19'
+]
+
+parties_2019_colors = {
+	'KOALICYJNY KOMITET WYBORCZY KOALICJA OBYWATELSKA PO .N IPL ZIELONI - ZPOW-601-6/19': candidates_colors['Rafał Kazimierz TRZASKOWSKI'],
+	'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19': candidates_colors['Andrzej Sebastian DUDA']
+}
