@@ -50,6 +50,16 @@ parties_2019 = [
 	'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19'
 ]
 
+simplify_party_dict = {
+	'KOALICYJNY KOMITET WYBORCZY KOALICJA OBYWATELSKA PO .N IPL ZIELONI - ZPOW-601-6/19': 'Koalicja Obywatelska',
+	'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19': 'Prawo i Sprawiedliwość'
+}
+
+parties_to_candidates = {
+	'Koalicja Obywatelska': 'Rafał Kazimierz TRZASKOWSKI',
+	'Prawo i Sprawiedliwość': 'Andrzej Sebastian DUDA' 
+}
+
 parties_2019_colors = {
 	'KOALICYJNY KOMITET WYBORCZY KOALICJA OBYWATELSKA PO .N IPL ZIELONI - ZPOW-601-6/19': candidates_colors['Rafał Kazimierz TRZASKOWSKI'],
 	'KOMITET WYBORCZY PRAWO I SPRAWIEDLIWOŚĆ - ZPOW-601-9/19': candidates_colors['Andrzej Sebastian DUDA']
