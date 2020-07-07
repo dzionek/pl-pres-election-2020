@@ -1,6 +1,9 @@
 # Analysis of the presidential election
 My own analysis of the first round of the 2020 Polish Presidential Election on June 28th. I love interactive maps and charts and I have used them quite extensively throughout the analysis.
 
+## Website
+If you do not want to clone the repository and Jupyter, you can see the results of the analysis at https://dzionek.github.io/pl-pres-election-2020.
+
 ## Parts
 The analysis consists of three parts:
 * *Analysis.ipynb* – Introduction to the topic, a brief information about candidates, counting the total results and displaying them on charts (also as a percentage).
