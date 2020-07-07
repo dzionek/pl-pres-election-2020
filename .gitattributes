@@ -1,1 +1,5 @@
 *.html linguist-detectable=false
+
+* text=auto
+*.ipynb text eol=lf
+*.html text eol=lf
